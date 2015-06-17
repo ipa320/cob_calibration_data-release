@@ -70,30 +70,27 @@
 	<property name="offset_arm_left_pitch" value="0.0"/>
 	<property name="offset_arm_left_yaw" value="0.0"/>
 
+	<!-- gripper right mount positions | relative to arm_right_7_link -->
+	<property name="offset_gripper_right_x" value="0.0"/>
+	<property name="offset_gripper_right_y" value="0.0"/>
+	<property name="offset_gripper_right_z" value="0.0"/>
+	<property name="offset_gripper_right_roll" value="0.0"/>
+	<property name="offset_gripper_right_pitch" value="0.0"/>
+	<property name="offset_gripper_right_yaw" value="0.0"/>
+	
+	<!-- gripper left mount positions | relative to arm_left_7_link -->
+	<property name="offset_gripper_left_x" value="0.0"/>
+	<property name="offset_gripper_left_y" value="0.0"/>
+	<property name="offset_gripper_left_z" value="0.0"/>
+	<property name="offset_gripper_left_roll" value="0.0"/>
+	<property name="offset_gripper_left_pitch" value="0.0"/>
+	<property name="offset_gripper_left_yaw" value="0.0"/>
+
 	<!-- *********************************** -->
 	<!-- kinematic chain reference positions -->
 	<!-- *********************************** -->
-	<!-- sensorring offset positions | used as calibration_rising for sensorring chain -->
-	<property name="offset_sensorring_ref" value="0.0"/>
+	<!-- this feature is no longer supported as urdfdom does not parse the according 'calibration_rising' tag -->
 	
-	<!-- arm right offset positions | used as calibration_rising for arm chain-->
-	<property name="offset_arm_right_1_ref" value="0.0"/>
-	<property name="offset_arm_right_2_ref" value="0.0"/>
-	<property name="offset_arm_right_3_ref" value="0.0"/>
-	<property name="offset_arm_right_4_ref" value="0.0"/>
-	<property name="offset_arm_right_5_ref" value="0.0"/>
-	<property name="offset_arm_right_6_ref" value="0.0"/>
-	<property name="offset_arm_right_7_ref" value="0.0"/>
-	
-	<!-- arm left offset positions | used as calibration_rising for arm chain-->
-	<property name="offset_arm_left_1_ref" value="0.0"/>
-	<property name="offset_arm_left_2_ref" value="0.0"/>
-	<property name="offset_arm_left_3_ref" value="0.0"/>
-	<property name="offset_arm_left_4_ref" value="0.0"/>
-	<property name="offset_arm_left_5_ref" value="0.0"/>
-	<property name="offset_arm_left_6_ref" value="0.0"/>
-	<property name="offset_arm_left_7_ref" value="0.0"/>
-
 	<!-- cam3d left | handeye calibration | relative to torso_3_link -->
 	<property name="offset_torso_cam3d_left_x" value="0.0"/>
 	<property name="offset_torso_cam3d_left_y" value="0.0"/>
