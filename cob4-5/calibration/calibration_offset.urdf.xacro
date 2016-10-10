@@ -70,7 +70,7 @@
 	<property name="offset_arm_left_pitch" value="0.0"/>
 	<property name="offset_arm_left_yaw" value="0.0"/>
 
-	<!-- gripper right mount positions | relative to arm_right_7_link -->
+	<!-- gripper right mount positions | relative to arm_7_link -->
 	<property name="offset_gripper_right_x" value="0.0"/>
 	<property name="offset_gripper_right_y" value="0.0"/>
 	<property name="offset_gripper_right_z" value="0.0"/>
@@ -78,7 +78,7 @@
 	<property name="offset_gripper_right_pitch" value="0.0"/>
 	<property name="offset_gripper_right_yaw" value="0.0"/>
 
-	<!-- gripper left mount positions | relative to arm_left_7_link -->
+	<!-- gripper left mount positions | relative to arm_7_link -->
 	<property name="offset_gripper_left_x" value="0.0"/>
 	<property name="offset_gripper_left_y" value="0.0"/>
 	<property name="offset_gripper_left_z" value="0.0"/>
@@ -116,12 +116,20 @@
 	<property name="offset_torso_cam3d_down_yaw" value="0.0"/>
 	
 	<!-- cam3d | handeye calibration | relative to sensorring_link -->
-	<property name="offset_sensorring_cam3d_x" value="0.0"/>
-	<property name="offset_sensorring_cam3d_y" value="0.0"/>
-	<property name="offset_sensorring_cam3d_z" value="0.0"/>
-	<property name="offset_sensorring_cam3d_roll" value="0.0"/>
-	<property name="offset_sensorring_cam3d_pitch" value="0.0"/>
-	<property name="offset_sensorring_cam3d_yaw" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_x" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_y" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_z" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_roll" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_pitch" value="0.0"/>
+	<property name="offset_sensorring_cam3d_front_yaw" value="0.0"/>
+
+	<!-- cam3d | handeye calibration | relative to sensorring_link -->
+	<property name="offset_sensorring_cam3d_back_x" value="0.0"/>
+	<property name="offset_sensorring_cam3d_back_y" value="0.0"/>
+	<property name="offset_sensorring_cam3d_back_z" value="0.0"/>
+	<property name="offset_sensorring_cam3d_back_roll" value="0.0"/>
+	<property name="offset_sensorring_cam3d_back_pitch" value="0.0"/>
+	<property name="offset_sensorring_cam3d_back_yaw" value="0.0"/>
 
 	<!-- cam | handeye calibration | relative to head_3_link -->
 	<property name="offset_head_cam_x" value="0.0"/>
