@@ -26,4 +26,5 @@
 	<xacro:property name="offset_laser_right_roll" value="0.0"/>
 	<xacro:property name="offset_laser_right_pitch" value="0.0"/>
 	<xacro:property name="offset_laser_right_yaw" value="0.0"/>
+
 </robot>
