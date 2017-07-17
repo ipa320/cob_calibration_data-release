@@ -1,0 +1,12 @@
+Source: ros-kinetic-cob-calibration-data
+Section: misc
+Priority: extra
+Maintainer: Florian Weisshardt <fmw@ipa.fhg.de>
+Build-Depends: debhelper (>= 9.0.0), ros-kinetic-catkin, ros-kinetic-cob-supported-robots
+Homepage: http://ros.org/wiki/cob_calibration_data
+Standards-Version: 3.9.2
+
+Package: ros-kinetic-cob-calibration-data
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-kinetic-xacro
+Description: This repository holds the current calibration data for Care-O-bot.
