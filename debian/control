@@ -1,0 +1,12 @@
+Source: ros-melodic-cob-calibration-data
+Section: misc
+Priority: optional
+Maintainer: Richard Bormann <richard.bormann@ipa.fraunhofer.de>
+Build-Depends: debhelper (>= 9.0.0), ros-melodic-catkin, ros-melodic-cob-supported-robots
+Homepage: http://ros.org/wiki/cob_calibration_data
+Standards-Version: 3.9.2
+
+Package: ros-melodic-cob-calibration-data
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-melodic-xacro
+Description: This repository holds the current calibration data for Care-O-bot.
