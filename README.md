@@ -1,3 +1,26 @@
+## cob_calibration_data (noetic) - 0.6.15-1
+
+The packages in the `cob_calibration_data` repository were released into the `noetic` distro by running `/usr/bin/bloom-release cob_calibration_data --rosdistro noetic` on `Sat, 17 Oct 2020 15:58:13 -0000`
+
+The `cob_calibration_data` package was released.
+
+Version of package(s) in repository `cob_calibration_data`:
+
+- upstream repository: https://github.com/ipa320/cob_calibration_data.git
+- release repository: unknown
+- rosdistro version: `null`
+- old version: `null`
+- new version: `0.6.15-1`
+
+Versions of tools used:
+
+- bloom version: `0.10.0`
+- catkin_pkg version: `0.4.23`
+- rosdep version: `0.19.0`
+- rosdistro version: `0.8.3`
+- vcstools version: `0.1.42`
+
+
 ## cob_calibration_data (melodic) - 0.6.15-1
 
 The packages in the `cob_calibration_data` repository were released into the `melodic` distro by running `/usr/bin/bloom-release cob_calibration_data --rosdistro melodic` on `Sat, 17 Oct 2020 15:51:09 -0000`
